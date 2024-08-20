@@ -1,0 +1,20 @@
+let a = 2 // integer
+let b = 0.99 // foloat
+let c = "the " //string
+let d = true // boolean
+
+console.log([a,b,c,d])
+
+//symbole = unique
+
+ // null
+ let none = null
+ console.log(none)
+ let un
+
+ console.log(typeof a)
+  console.log(typeof b)
+   console.log(typeof c)
+    console.log(typeof d)
+     console.log(typeof none)
+      console.log(typeof un)
