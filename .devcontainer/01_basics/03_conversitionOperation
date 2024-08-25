@@ -1,0 +1,21 @@
+/*
+let score = 33
+let t = console.log(typeof score)
+console.log(t)
+
+let s = "34"
+console.log()
+*/
+
+// ***************** conversition *****************
+let a = 3
+let b =  4
+let c = "3"
+
+console.log(a==b)
+console.log(a>b)
+console.log(a<b)
+console.log(b>=a)
+
+console.log(a===b)
+console.log(a===c)

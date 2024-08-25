@@ -1,0 +1,68 @@
+// there are two types of data types 
+
+//************* primitive ***********
+
+/*
+
+7 types => string , nuber, boolean, null, undefined, symbol, bigInt
+
+
+*/
+
+//************** non-primitive ************
+
+// array, object, function
+
+
+let bigInt = 3486848668548383n
+console.log(typeof bigInt)
+
+let id = Symbol('123')
+let anotherId = Symbol('123')
+
+console.log(id == anotherId)
+console.log(id)
+
+
+const arr = ["hulk", "captian", "thor"]
+
+let obj = {
+    name: "harion",
+    age: 22
+}
+
+let fun = function(){
+    console.log("hellow world")
+}
+
+
+// stack and heap memory
+
+/*
+
+#  stack memory is used by primitive datatypes
+   in this copy of memory is given
+
+#  heap memory is used by non-primitive datatypes 
+      in this reference of memory is given
+
+*/
+
+//eg of stack
+    let one = 1;
+    let two = one
+    console.log(one)
+    console.log(two)
+
+
+// eg of heap
+
+let userOne = {
+    email: "hitesh@google.com"
+}
+
+let userTwo = userOne
+console.log([userOne, userTwo])
+
+userTwo.email = "hariom@google.com"
+console.log([userOne, userTwo])
